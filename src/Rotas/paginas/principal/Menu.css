@@ -2,8 +2,6 @@ html{
     background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);
 }
 
-/*==================== Menu ==================== */
-
 .menu-geral{
     display: flex;
 }
@@ -21,25 +19,12 @@ html{
     height: 100vh;
 }
 
-
 .menu-right{
     border-left: 0.5px solid white;
     text-align: center;
     width: 15%;
     height: 100vh;
 }
-
-.menu-left{
-    text-align: center;
-    align-items: center;
-    display: grid;
-    width: 15%;
-    height: 100vh;
-    background-color: rgb(24, 26, 28);
-    border-right: 0.5px solid white;
-}
-
-/*==================== Container ==================== */
 
 .containerbutton{
     margin-top: 30%;
@@ -53,16 +38,6 @@ html{
 
 }
 
-.containerbutton-left{
-
-    font-weight:var(--font-medium);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
 .containerbutton .btn {
     text-align: center;
     position: relative;
@@ -70,15 +45,6 @@ html{
     height: 70px;
     margin: 20px;
     margin-bottom: 50px;
-}
-
-
-.containerbutton .btn .left {
-    text-align: center;
-    position: relative;
-    width: 120px;
-    height: 40px;
-    margin: 20px;
 }
 
 .containerbutton .btn a{
@@ -103,6 +69,7 @@ html{
     overflow: hidden;
     transition: 0.5s;
     backdrop-filter: blur(15px);
+    
 }
 
 .containerbutton .btn:hover a {
@@ -133,7 +100,6 @@ html{
     bottom: -5px;
     width: 50px;
     height: 20px;
-    background: #ff0000;
     border-radius: 10px;
     transition: 0.5s;
 }
@@ -195,7 +161,9 @@ html{
                     rgb(28, 209, 37) 0%,
                     rgb(16, 185, 190) 100%
                   );
+
 }
+
 .containerbutton .btn:nth-child(2)::before,
 .containerbutton .btn:nth-child(2)::after{
     background: linear-gradient(
@@ -283,113 +251,10 @@ html{
                   );
 
 }
-.containerbutton .btn:nth-child(2)::before,
-.containerbutton .btn:nth-child(2)::after{
-    background: linear-gradient(
-        90deg,
-        rgb(28, 209, 37) 0%,
-        rgb(16, 185, 190) 100%
-      );
-    box-shadow: 0 0 5px linear-gradient(
-                        90deg,
-                        rgb(28, 209, 37) 0%,
-                        rgb(16, 185, 190) 100%
-                    ),
-                0 0 15px linear-gradient(
-                    90deg,
-                    rgb(28, 209, 37) 0%,
-                    rgb(16, 185, 190) 100%
-                  ),
-                0 0 30px linear-gradient(
-                    90deg,
-                    rgb(28, 209, 37) 0%,
-                    rgb(16, 185, 190) 100%
-                  ),
-                0 0 60px linear-gradient(
-                    90deg,
-                    rgb(28, 209, 37) 0%,
-                    rgb(16, 185, 190) 100%
-                  );
-
-}
-.containerbutton .btn:nth-child(3)::before,
-.containerbutton .btn:nth-child(3)::after{
-    background: linear-gradient(
-        90deg,
-        rgb(28, 209, 37) 0%,
-        rgb(16, 185, 190) 100%
-      );
-    box-shadow: 0 0 5px linear-gradient(
-                        90deg,
-                        rgb(28, 209, 37) 0%,
-                        rgb(16, 185, 190) 100%
-                    ),
-                0 0 15px linear-gradient(
-                    90deg,
-                    rgb(28, 209, 37) 0%,
-                    rgb(16, 185, 190) 100%
-                  ),
-                0 0 30px linear-gradient(
-                    90deg,
-                    rgb(28, 209, 37) 0%,
-                    rgb(16, 185, 190) 100%
-                  ),
-                0 0 60px linear-gradient(
-                    90deg,
-                    rgb(28, 209, 37) 0%,
-                    rgb(16, 185, 190) 100%
-                  );
-
-}
-.containerbutton .btn:nth-child(4)::before,
-.containerbutton .btn:nth-child(4)::after{
-    background: linear-gradient(
-        90deg,
-        rgb(28, 209, 37) 0%,
-        rgb(16, 185, 190) 100%
-      );
-    box-shadow: 0 0 5px linear-gradient(
-                        90deg,
-                        rgb(28, 209, 37) 0%,
-                        rgb(16, 185, 190) 100%
-                    ),
-                0 0 15px linear-gradient(
-                    90deg,
-                    rgb(28, 209, 37) 0%,
-                    rgb(16, 185, 190) 100%
-                  ),
-                0 0 30px linear-gradient(
-                    90deg,
-                    rgb(28, 209, 37) 0%,
-                    rgb(16, 185, 190) 100%
-                  ),
-                0 0 60px linear-gradient(
-                    90deg,
-                    rgb(28, 209, 37) 0%,
-                    rgb(16, 185, 190) 100%
-                  );
-
-}
-
-/*==================== Buttons ==================== */
-
 .button__icon{
     font-size: 1.25rem;
     margin-left: 10px;
     transition: .3s;
-}
-
-.button__icon-left{
-    font-size: 1.25rem;
-    margin-left: 10px;
-    transition: .3s;
-}
-
-.button--flex-left{
-    display: inline-flex;
-    align-items: center;
-    font-size: 1.25rem;
-    margin-top: 10px;
 }
 
 .button--flex{
